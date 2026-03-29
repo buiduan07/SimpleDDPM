@@ -1,0 +1,22 @@
+
+import torch
+
+DEVICE="cpu"
+BATCH_SIZE=64
+NUM_EPOCHS=5
+LEARNING_RATE=1e-4
+IMAGE_SIZE=28
+CHANNELS=1
+
+NUM_TIMESTEPS=1000
+BETA_START=0.0001
+BETA_END=0.02
+
+NUM_SAMPLES_TO_GENERATE=16
+
+DATA_DIR="data"
+MODELS_DIR="models"
+CHECKPOINT_DIR=f"{MODELS_DIR}/checkpoints"
+
+print("Configuration loaded successfully!")
+print(f"Device: {DEVICE}, Image size: {IMAGE_SIZE}x{IMAGE_SIZE}, Timesteps: {NUM_TIMESTEPS}")

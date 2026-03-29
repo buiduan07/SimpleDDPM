@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+my1stmodel.venv/
+*.egg-info/
+
+# Model files
+models/checkpoints/
+models/*.pth
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# Output images
+samples/
+animation/
+animation_grid/
+*.png
+*.gif
+*.mp4
