@@ -5,7 +5,7 @@ __pycache__/
 my1stmodel.venv/
 *.egg-info/
 
-# Model files
+# Model files (too large for GitHub)
 models/checkpoints/
 models/*.pth
 data/
@@ -20,4 +20,5 @@ animation/
 animation_grid/
 *.png
 *.gif
+*.jpg
 *.mp4
