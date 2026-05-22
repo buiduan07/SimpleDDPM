@@ -28,11 +28,9 @@ SimpleDDPM/
 
 ## 🚀 Quick Start
 ```bash
-# Train
 python train.py
 
-# Generate samples
 python sample.py
 
-# Create animation
 python animate_sample.py
+```
